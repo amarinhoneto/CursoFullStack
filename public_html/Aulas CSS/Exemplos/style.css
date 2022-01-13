@@ -1,0 +1,46 @@
+
+h1{ 
+    color: greenyellow;
+    font-size: 50px;
+    background-color: grey;
+    border: 8px dashed orange;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body{
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2017/03/18/spacex-falcon-9-launch-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li{
+    color: #509450;
+}
+
+.moon{
+    color: orchid;
+}
+
+#europa-text{
+    font-size: 15px;
+    color: peru;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+/* INLINE > ID > CLASSES/ATRIBUTOS > ELEMENTO */
+
+
+
+
+
+
+
