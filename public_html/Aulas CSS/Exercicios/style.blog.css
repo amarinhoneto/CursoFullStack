@@ -1,0 +1,28 @@
+body{
+    margin: 50px 450px 50px 450px;
+}
+
+section{
+    background-color: #fffafa;
+}
+
+h1{
+    font-family: Montserrat;
+    font-size: 45px;   
+    font-weight: 900; 
+}
+
+div{
+    margin: 50px;
+}
+
+.date{
+    font-family: Roboto;
+    color: #008080;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.post.content{
+    font-family: Open Sans;
+}
