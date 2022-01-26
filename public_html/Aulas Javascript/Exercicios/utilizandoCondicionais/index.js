@@ -5,6 +5,7 @@ let velocity = 0
 let prefVelocity = prompt ("Qual a velocidade que devo seguir?")
 let velocityConfirmation = confirm ("Vamos iniciar nossa viagem à " + prefVelocity + "Km/s?")
 
+
 if (velocityConfirmation == false) {
     prefVelocity = prompt ("Qual a velocidade correta?")
 
@@ -14,10 +15,16 @@ if (velocityConfirmation == false) {
 velocity = prefVelocity
 
 
-if (velocity <= 100){
-    confirm ("Velocidade muito baixa, deixa alterar?")
-    e
+if (velocity <= 0){
+    alert ( "Nave está parada. Considere partir e aumentar a velocidade")
+} else if (velocity < 40) {
+    alert ("Você está devagar, podemos aumentar mais")
+} else if (velocity >= 40 && velocity < 80) {
+    alert ("Parece uma boa velocidade para manter")
+} else if (velocity >= 80 && velocity < 100) {
+    alert ("Velocidade alta. Considere diminuir")
+} else if (velocity >= 100) {
+    alert ("Velocidade perigosa. Controle automático forçado")
 }
 
-
-
+alert ("Piloto: " + pilotName + "\nVelocidade atual: " + velocity)
